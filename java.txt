@@ -1,0 +1,15 @@
+1.数组的定义与使用
+Null Point Exception 空指针异常
+public static void main(String[] args) {
+  int[] array4 = null;
+ System.out.println(array4[0]);
+代码展示
+public class Test{
+  public static void main(String[] args) {
+   int [] array1 = {1,2,3,4};
+    array1[0] = 99;
+    int [] array2 = array1;
+   array2[0] = 100;
+System.out.println(Array.toString(array1));
+  System.out.println(Arrays.toString(array2));
+}
